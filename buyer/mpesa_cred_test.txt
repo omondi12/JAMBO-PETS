@@ -1,0 +1,56 @@
+
+
+2025-05-15 09:39:23 - TESTING API CREDENTIALS
+Testing with consumer key: a1g13...
+API Request URL: https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials
+HTTP Status: 200
+Total Time: 0.796937 seconds
+Response: {
+            "access_token": "iZmbUczPol4PScbIMY6e1YsEFGZZ",
+            "expires_in": "3599"
+        }
+        
+SUCCESS: Access token received!
+Token: iZmbUczPol...
+
+Detailed Request Log:
+*   Trying 45.223.139.195:443...
+* Connected to sandbox.safaricom.co.ke (45.223.139.195) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=KE; L=Nairobi; O=Safaricom PLC; CN=sandbox.safaricom.co.ke
+*  start date: Oct  8 00:00:00 2024 GMT
+*  expire date: Oct  7 23:59:59 2025 GMT
+*  issuer: C=US; O=DigiCert Inc; CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x294cd12ba20)
+> GET /oauth/v1/generate?grant_type=client_credentials HTTP/2
+Host: sandbox.safaricom.co.ke
+accept: */*
+authorization: Basic YTFnMTNSVUtYdm9aczNPN0FqWmZ6a0R4akFUSEJHejNHVUxIano4V0NCYWlKbTYxOmtVU1dDUk1uN3FJTVRmc1lVdG1HQ2Nianp2TDR3R1BGYWpEc296NTNSRVh5VlRwOGFJdFBETjdxQ3d1OFp4WU8=
+
+* old SSL session ID is stale, removing
+* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!
+< HTTP/2 200 
+< content-type: application/json;charset=UTF-8
+< cache-control: no-store
+< x-request-id: bd731a6d-d95a-4a64-9667-7af2b8d463bc
+< content-length: 113
+< date: Thu, 15 May 2025 07:39:25 GMT
+< set-cookie: visid_incap_2742146=gjOKUCokSp6OFpg8S8mtViyaJWgAAAAAQUIPAAAAAAA5M8qQ0YC5JjaU2KyW4Bqf; expires=Thu, 14 May 2026 15:35:07 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+< set-cookie: incap_ses_6555_2742146=BwIdVhlhRWfF1qoCEgr4WiyaJWgAAAAAEYHYvf6AcYe+6fK1O0U1Jg==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+< strict-transport-security: max-age=31536000
+< x-cdn: Imperva
+< x-iinfo: 15-25389005-25389025 NNNN CT(75 80 0) RT(1747294764798 317) q(0 0 2 1) r(3 3) U16
+< 
+* Connection #0 to host sandbox.safaricom.co.ke left intact
+

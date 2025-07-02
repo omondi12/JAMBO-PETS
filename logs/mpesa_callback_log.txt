@@ -1,0 +1,18 @@
+
+
+2025-05-15 10:43:42 - M-PESA CALLBACK RECEIVED
+Callback data: 
+ERROR: Invalid callback data format
+
+
+2025-05-15 10:46:22 - M-PESA CALLBACK RECEIVED
+Callback data: 
+ERROR: Invalid callback data format
+
+
+2025-05-30 10:53:54 - M-PESA CALLBACK RECEIVED
+Callback data: {"Body":{"stkCallback":{"MerchantRequestID":"17f6-47b3-b4fd-ae0574a0242c603063","CheckoutRequestID":"ws_CO_30052025115337728798185212","ResultCode":1032,"ResultDesc":"Request cancelled by user"}}}
+Result Code: 1032
+Result Description: Request cancelled by user
+Checkout Request ID: ws_CO_30052025115337728798185212
+Found payment record: Payment ID 9, Order ID 44

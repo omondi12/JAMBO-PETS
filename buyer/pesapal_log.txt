@@ -1,0 +1,24 @@
+
+2025-05-30 10:54:15 - Generating Payment URL for Order: 45
+
+2025-05-30 10:54:15 - Requesting PesaPal Access Token
+Response Code: 200
+Response: {"error":{"error_type":"api_error","code":"invalid_consumer_key_or_secret_provided","message":""},"status":"500"}
+Failed to get access token
+Failed to get access token
+
+2025-05-30 11:13:18 - Generating Payment URL for Order: 46
+
+2025-05-30 11:13:18 - Requesting PesaPal Access Token
+Response Code: 200
+Response: {"error":{"error_type":"api_error","code":"invalid_consumer_key_or_secret_provided","message":""},"status":"500"}
+Failed to get access token
+Failed to get access token
+
+2025-06-01 09:09:57 - Generating Payment URL for Order: 48
+
+2025-06-01 09:09:57 - Requesting PesaPal Access Token
+Response Code: 200
+Response: {"error":{"error_type":"api_error","code":"invalid_consumer_key_or_secret_provided","message":""},"status":"500"}
+Failed to get access token
+Failed to get access token

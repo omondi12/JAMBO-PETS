@@ -1,0 +1,231 @@
+
+
+2025-05-27 09:37:58 - INITIATING STK PUSH
+Phone: +254798185212, Amount: 5850.00, Order ID: 30, Payment ID: 3
+Formatted Phone: 254798185212
+Using callback URL: https://1e59-41-139-186-177.ngrok-free.app/JamboPets/buyer/mpesa_callback.php
+Callback URL verified, HTTP Status: 404
+Getting access token...
+Token HTTP Status: 200
+Token Response: {
+            "access_token": "ZIqrZmQGqNmA0lQfIjpByITTkD3j",
+            "expires_in": "3599"
+        }
+        
+Access token obtained successfully
+STK Push Data: {
+    "BusinessShortCode": "174379",
+    "Password": "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwNTI3MDkzNzU5",
+    "Timestamp": "20250527093759",
+    "TransactionType": "CustomerPayBillOnline",
+    "Amount": 5850,
+    "PartyA": "254798185212",
+    "PartyB": "174379",
+    "PhoneNumber": "254798185212",
+    "CallBackURL": "https:\/\/1e59-41-139-186-177.ngrok-free.app\/JamboPets\/buyer\/mpesa_callback.php",
+    "AccountReference": "Order#30",
+    "TransactionDesc": "Payment for Order #30"
+}
+STK Push HTTP Status: 200
+STK Push Response: {
+            "MerchantRequestID":"17f6-47b3-b4fd-ae0574a0242c448309",
+            "CheckoutRequestID":"ws_CO_27052025103800352798185212",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Updating payment record with CheckoutRequestID: ws_CO_27052025103800352798185212
+Payment record updated successfully
+STK Push process completed
+
+
+2025-05-30 09:06:12 - INITIATING STK PUSH
+Phone: +254798185212, Amount: 10649.99, Order ID: 33, Payment ID: 5
+Formatted Phone: 254798185212
+Using callback URL: https://1e59-41-139-186-177.ngrok-free.app/JamboPets/buyer/mpesa_callback.php
+WARNING: Callback URL may not be accessible. Error: 6
+HTTP Status: 0
+Getting access token...
+Token HTTP Status: 0
+TOKEN ERROR: Could not resolve host: sandbox.safaricom.co.ke
+
+
+2025-05-30 10:32:32 - INITIATING STK PUSH
+Phone: +254798185212, Amount: 5850.00, Order ID: 40, Payment ID: 7
+Formatted Phone: 254798185212
+Getting access token...
+Access token obtained successfully
+STK Push Data: {
+    "BusinessShortCode": "174379",
+    "Password": "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwNTMwMTAzMjMy",
+    "Timestamp": "20250530103232",
+    "TransactionType": "CustomerPayBillOnline",
+    "Amount": 5850,
+    "PartyA": "254798185212",
+    "PartyB": "174379",
+    "PhoneNumber": "254798185212",
+    "CallBackURL": "https:\/\/d523-41-139-186-177.ngrok-free.app\/JamboPets\/buyer\/mpesa_callback.php",
+    "AccountReference": "Order#40",
+    "TransactionDesc": "Payment for Order #40"
+}
+STK Push Response: {
+            "MerchantRequestID":"94fd-4d30-a4ee-73894dcc3fe2509841",
+            "CheckoutRequestID":"ws_CO_30052025103230745798185212",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+STK Push successful. CheckoutRequestID: ws_CO_30052025103230745798185212
+Payment record updated successfully
+
+
+2025-05-30 10:33:06 - INITIATING STK PUSH
+Phone: +254798185212, Amount: 17150.00, Order ID: 41, Payment ID: 8
+Formatted Phone: 254798185212
+Getting access token...
+Access token obtained successfully
+STK Push Data: {
+    "BusinessShortCode": "174379",
+    "Password": "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwNTMwMTAzMzA2",
+    "Timestamp": "20250530103306",
+    "TransactionType": "CustomerPayBillOnline",
+    "Amount": 17150,
+    "PartyA": "254798185212",
+    "PartyB": "174379",
+    "PhoneNumber": "254798185212",
+    "CallBackURL": "https:\/\/d523-41-139-186-177.ngrok-free.app\/JamboPets\/buyer\/mpesa_callback.php",
+    "AccountReference": "Order#41",
+    "TransactionDesc": "Payment for Order #41"
+}
+STK Push Response: {
+            "MerchantRequestID":"3080-45a6-a06c-fffc5ef13d9c165488",
+            "CheckoutRequestID":"ws_CO_30052025103305449798185212",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+STK Push successful. CheckoutRequestID: ws_CO_30052025103305449798185212
+Payment record updated successfully
+
+
+2025-05-30 11:53:39 - INITIATING STK PUSH
+Phone: +254798185212, Amount: 17150.00, Order ID: 44, Payment ID: 9
+Formatted Phone: 254798185212
+Getting access token...
+Access token obtained successfully
+STK Push Data: {
+    "BusinessShortCode": "174379",
+    "Password": "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwNTMwMTE1MzM5",
+    "Timestamp": "20250530115339",
+    "TransactionType": "CustomerPayBillOnline",
+    "Amount": 17150,
+    "PartyA": "254798185212",
+    "PartyB": "174379",
+    "PhoneNumber": "254798185212",
+    "CallBackURL": "https:\/\/d523-41-139-186-177.ngrok-free.app\/JamboPets\/buyer\/mpesa_callback.php",
+    "AccountReference": "Order#44",
+    "TransactionDesc": "Payment for Order #44"
+}
+STK Push Response: {
+            "MerchantRequestID":"17f6-47b3-b4fd-ae0574a0242c603063",
+            "CheckoutRequestID":"ws_CO_30052025115337728798185212",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+STK Push successful. CheckoutRequestID: ws_CO_30052025115337728798185212
+Payment record updated successfully
+
+
+2025-06-01 10:09:30 - INITIATING STK PUSH
+Phone: +254798185212, Amount: 10649.99, Order ID: 47, Payment ID: 13
+Formatted Phone: 254798185212
+Getting access token...
+Access token obtained successfully
+STK Push Data: {
+    "BusinessShortCode": "174379",
+    "Password": "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwNjAxMTAwOTMw",
+    "Timestamp": "20250601100930",
+    "TransactionType": "CustomerPayBillOnline",
+    "Amount": 10650,
+    "PartyA": "254798185212",
+    "PartyB": "174379",
+    "PhoneNumber": "254798185212",
+    "CallBackURL": "https:\/\/d523-41-139-186-177.ngrok-free.app\/JamboPets\/buyer\/mpesa_callback.php",
+    "AccountReference": "Order#47",
+    "TransactionDesc": "Payment for Order #47"
+}
+STK Push Response: {
+            "MerchantRequestID":"94fd-4d30-a4ee-73894dcc3fe2574190",
+            "CheckoutRequestID":"ws_CO_01062025101136720798185212",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+STK Push successful. CheckoutRequestID: ws_CO_01062025101136720798185212
+Payment record updated successfully
+
+
+2025-06-02 13:32:50 - INITIATING STK PUSH
+Phone: +254798185212, Amount: 12550.00, Order ID: 49, Payment ID: 15
+Formatted Phone: 254798185212
+Getting access token...
+Access token obtained successfully
+STK Push Data: {
+    "BusinessShortCode": "174379",
+    "Password": "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwNjAyMTMzMjUw",
+    "Timestamp": "20250602133250",
+    "TransactionType": "CustomerPayBillOnline",
+    "Amount": 12550,
+    "PartyA": "254798185212",
+    "PartyB": "174379",
+    "PhoneNumber": "254798185212",
+    "CallBackURL": "https:\/\/d523-41-139-186-177.ngrok-free.app\/JamboPets\/buyer\/mpesa_callback.php",
+    "AccountReference": "Order#49",
+    "TransactionDesc": "Payment for Order #49"
+}
+STK Push Response: {
+            "MerchantRequestID":"3080-45a6-a06c-fffc5ef13d9c259197",
+            "CheckoutRequestID":"ws_CO_02062025133251431798185212",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+STK Push successful. CheckoutRequestID: ws_CO_02062025133251431798185212
+Payment record updated successfully
+
+
+2025-06-07 15:41:00 - INITIATING STK PUSH
+Phone: +254798185212, Amount: 17150.00, Order ID: 50, Payment ID: 16
+Formatted Phone: 254798185212
+Getting access token...
+Access token obtained successfully
+STK Push Data: {
+    "BusinessShortCode": "174379",
+    "Password": "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwNjA3MTU0MTAw",
+    "Timestamp": "20250607154100",
+    "TransactionType": "CustomerPayBillOnline",
+    "Amount": 17150,
+    "PartyA": "254798185212",
+    "PartyB": "174379",
+    "PhoneNumber": "254798185212",
+    "CallBackURL": "https:\/\/d523-41-139-186-177.ngrok-free.app\/JamboPets\/buyer\/mpesa_callback.php",
+    "AccountReference": "Order#50",
+    "TransactionDesc": "Payment for Order #50"
+}
+STK Push Response: {
+            "MerchantRequestID":"17f6-47b3-b4fd-ae0574a0242c905554",
+            "CheckoutRequestID":"ws_CO_07062025154310546798185212",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+STK Push successful. CheckoutRequestID: ws_CO_07062025154310546798185212
+Payment record updated successfully
