@@ -7,7 +7,7 @@ require_once 'includes/functions.php';
 $pageTitle = "Home";
 $pageDescription = "Kenya's premier online marketplace for pets and pet products. Find dogs, cats, birds, and more from trusted breeders and sellers.";
 
-// Add debug mode - set to true to enable detailed error messages
+ 
 $debugMode = true;
 
 // Function to handle and display errors based on debug mode
@@ -21,7 +21,7 @@ function handleError($message, $sqlError = "") {
     }
 }
 
-// Include header
+ 
 require_once 'includes/header.php';
 
 // Ensure $conn is available
